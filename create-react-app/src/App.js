@@ -1,24 +1,26 @@
 import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <div>App</div>
-      <p>Paragraph here</p>
+      <nav class="crumbs">
+        <ol>
+          <li class="crumb">
+            <a href="#">Bikes</a>
+          </li>
+          <li class="crumb">
+            <a href="#">BMX</a>
+          </li>
+          <li class="crumb">Jump Bike 3000</li>
+        </ol>
+      </nav>
 
-      <header>Hello</header>
-      <footer>Footer</footer>
-      <section></section>
-      <nav></nav>
-      <main></main>
-      <article></article>
-      <aside></aside>
-      <figure></figure>
-
-      <img />
-      <table></table>
-      <button></button>
-      <form></form>
+      <h1>Jump Bike 3000</h1>
+      <p>
+        This BMX bike is a solid step into the pro world. It looks as legit as
+        it rides and is built to polish your skills.
+      </p>
     </>
   );
 }
