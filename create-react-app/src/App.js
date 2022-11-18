@@ -3,25 +3,17 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <nav class="crumbs">
-        <ol>
-          <li class="crumb">
-            <a href="#">Bikes</a>
-          </li>
-          <li class="crumb">
-            <a href="#">BMX</a>
-          </li>
-          <li class="crumb">Jump Bike 3000</li>
-        </ol>
-      </nav>
-
-      <h1>Jump Bike 3000</h1>
-      <p>
-        This BMX bike is a solid step into the pro world. It looks as legit as
-        it rides and is built to polish your skills.
-      </p>
-    </>
+    <div>
+      App
+      <p>Hello</p>
+      {/* block level html elements */}
+      <span>I am span</span>
+      {/* inline elements */}
+      <div className="innerdiv">I am a first div inside another div</div>
+      <div className="innerdiv">I am a second div inside another div</div>
+      <div className="innerdiv">I am a third div inside another div</div>
+      <div id="fourthdiv">I am a fourth div inside another div</div>
+    </div>
   );
 }
 

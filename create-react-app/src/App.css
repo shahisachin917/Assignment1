@@ -1,21 +1,24 @@
-nav {
-  border-bottom: 1px solid black;
+div {
+  color: red;
 }
 
-.crumbs ol {
-  list-style-type: none;
-  padding-left: 0;
+/* tagName {
+  css-properties: value;
+} */
+
+p {
+  color: white;
+  background-color: black;
 }
 
-.crumb {
-  display: inline-block;
+span {
+  background-color: blueviolet;
 }
 
-.crumb a::after {
-  display: inline-block;
-  color: #000;
-  content: ">";
-  font-size: 80%;
-  font-weight: bold;
-  padding: 0 3px;
+.innerdiv {
+  color: black;
+}
+
+#fourthdiv {
+  color: yellowgreen;
 }
