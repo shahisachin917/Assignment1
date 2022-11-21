@@ -10,6 +10,7 @@ function App() {
 
   age = 32;
 
+
   return (
     <>
       <h1>My Country Name: {myCountry}</h1>
