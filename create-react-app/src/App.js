@@ -8,7 +8,7 @@ function App() {
   // const age = 30;
   let age = 30;
 
-  age = 31;
+  age = 32;
 
   return (
     <>
