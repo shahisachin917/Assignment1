@@ -2,11 +2,15 @@ import React from "react";
 import "./App.css";
 
 function App() {
+  const myCountry = "Nepal";
+  const myName = "Gorakh";
+  const favNumber = 7;
+
   return (
     <>
-      <div className="box">CSS Box Model</div>
-      <span>I am inline element</span>
-      <div className="square"></div>
+      <h1>My Country Name: {myCountry}</h1>
+      <h2>My Name: {myName}</h2>
+      <h2>My Favourite Number: {favNumber}</h2>
     </>
   );
 }
