@@ -18,3 +18,13 @@ span {
   margin: auto;
   border-radius: 50%;
 }
+
+.large-screen {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .large-screen {
+    display: block;
+  }
+}
