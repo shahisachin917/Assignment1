@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+      <a href="/">Home</a>
       <h1>My Country Name: {myCountry}</h1>
       <h2>My Name: {myName}</h2>
       <h2>My Favourite Number: {favNumber}</h2>
@@ -24,6 +25,12 @@ function App() {
       <h1 className="first">This is a heading</h1>
       <h1 className="first">This is a heading</h1>
       <h1>This is a heading</h1>
+
+      <nav>
+        <a href="https://google.com">Google</a>
+        <br />
+        <a href="https://facebook.com">Facebook</a>
+      </nav>
     </>
   );
 }
