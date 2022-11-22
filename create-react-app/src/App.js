@@ -1,38 +1,38 @@
 import React from "react";
 import "./App.css";
 
-function App() {
-  const myCountry = "Nepal";
-  const myName = "Gorakh";
-  const favNumber = 7;
-  // const age = 30;
-  let age = 30;
+const App = function () {
+  // Function Declaration
+  // function add(a, b) {
+  //   return a + b;
+  // }
 
-  age = 32;
+  // Function Expression
+  // const add = function (a, b) {
+  //   return a + b;
+  // };
+
+  // Arrow Function
+  // const add = (a, b) => {
+  //   return a + b;
+  // };
+  // const add = (a, b) => {
+  //   console.log(a);
+  //   console.log(b);
+  //   return a + b;
+  // };
+
+  const add = (a, b) => a + b;
+
+  const sum = add(5, 7);
+  const output = add(50, 70);
 
   return (
     <>
-      <a href="/">Home</a>
-      <h1>My Country Name: {myCountry}</h1>
-      <h2>My Name: {myName}</h2>
-      <h2>My Favourite Number: {favNumber}</h2>
-      <h2>My Age: {age}</h2>
-
-      <div className="large-screen">I am only visible in large screen</div>
-      <div className="small-screen">I am only visible in small screen</div>
-      <button className="clickButton">Click Me</button>
-
-      <h1 className="first">This is a heading</h1>
-      <h1 className="first">This is a heading</h1>
-      <h1>This is a heading</h1>
-
-      <nav>
-        <a href="https://google.com">Google</a>
-        <br />
-        <a href="https://facebook.com">Facebook</a>
-      </nav>
+      <h1>First Sum: {sum + 20}</h1>
+      <h1>Second Sum: {output}</h1>
     </>
   );
-}
+};
 
 export default App;
