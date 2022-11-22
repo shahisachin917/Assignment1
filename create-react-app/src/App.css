@@ -6,6 +6,14 @@
   margin-bottom: 20px;
 }
 
+h1 {
+  color: red;
+}
+
+h1:hover {
+  color: blueviolet;
+}
+
 span {
   background-color: green;
   color: white;
@@ -21,6 +29,14 @@ span {
 
 .large-screen {
   display: none;
+}
+
+.clickButton {
+  background-color: red;
+}
+
+.clickButton:hover {
+  background-color: green;
 }
 
 @media (min-width: 700px) {
