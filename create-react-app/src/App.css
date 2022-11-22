@@ -39,6 +39,10 @@ span {
   background-color: green;
 }
 
+.first::before {
+  content: "I am  pseudo element ";
+}
+
 @media (min-width: 700px) {
   .large-screen {
     display: block;

@@ -20,6 +20,10 @@ function App() {
       <div className="large-screen">I am only visible in large screen</div>
       <div className="small-screen">I am only visible in small screen</div>
       <button className="clickButton">Click Me</button>
+
+      <h1 className="first">This is a heading</h1>
+      <h1 className="first">This is a heading</h1>
+      <h1>This is a heading</h1>
     </>
   );
 }
