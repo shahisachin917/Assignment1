@@ -1,32 +1,21 @@
 import React from "react";
 import "./App.css";
 
-import { add, output } from "./utils/utility";
-
 const App = function () {
-  const sum = add(5, 10);
-  // passing values -> arguments
-  const result = output(1);
-
-  function print(greeting) {
-    return greeting;
+  function printNumber(firstNumber, secondNumber, thirdNumber) {
+    console.log(typeof firstNumber);
+    console.log(typeof secondNumber);
+    console.log(typeof thirdNumber);
+    return firstNumber + secondNumber + thirdNumber;
   }
 
-  console.log(print());
+  const result = printNumber(1, 2, "3");
 
-  // const printValue = print();
+  console.log(typeof result);
 
-  return (
-    <>
-      <div>{sum}</div>
-      <div>{result}</div>
-      <div>{print("Hello")}</div>
-      <div>{print("Hi")}</div>
-      {/* <div>{printValue}</div> */}
-    </>
-  );
+  console.log(result + 7);
+
+  return <>{result}</>;
 };
-
-// Seperation of Concern
 
 export default App;
