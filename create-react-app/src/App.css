@@ -1,8 +1,0 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster:wght@400&display=swap");
-
-div {
-  width: 7em;
-  height: 7em;
-  border-radius: 50%;
-  background-color: hsl(119, 35%, 37%);
-}
