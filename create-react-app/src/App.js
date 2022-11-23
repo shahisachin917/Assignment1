@@ -9,9 +9,7 @@ const App = function () {
 
   return (
     <>
-      <div>{sum}</div>
-      <div>{result}</div>
-      <a href="#">Hell0</a>
+      <div></div>
     </>
   );
 };
