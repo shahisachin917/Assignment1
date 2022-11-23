@@ -9,7 +9,7 @@ const App = function () {
 
   return (
     <>
-      <div></div>
+      <div>Hello</div>
     </>
   );
 };
