@@ -1,22 +1,33 @@
 import React from "react";
 import "./App.css";
 
-const App = function () {
-  // function print(first, second) {
-  //   // console.log(first);
-  //   return first + second;
-  // }
+function App() {
+  const myCountry = "Nepal";
+  const myName = "Gorakh";
+  const favNumber = 7;
+  // const age = 30;
+  let age = 30;
 
-  // const result = print(1, 2);
-  // console.log(result);
+  age = 32;
+
+
   return (
     <>
-      <div className="sa">Preeya</div>
-      <p>Samrat</p>
+      <h1>My Country Name: {myCountry}</h1>
+      <h2>My Name: {myName}</h2>
+      <h2>My Favourite Number: {favNumber}</h2>
+      <h2>My Age: {age}</h2>
     </>
   );
-};
+}
 
-// Seperation of Concern
+  const result = printNumber(1, 2, "3");
+
+  console.log(typeof result);
+
+  console.log(result + 7);
+
+  return <>{result}</>;
+};
 
 export default App;
