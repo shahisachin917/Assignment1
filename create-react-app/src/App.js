@@ -12,10 +12,8 @@ function App() {
 
   return (
     <>
-      <h1>My Country Name: {myCountry}</h1>
-      <h2>My Name: {myName}</h2>
-      <h2>My Favourite Number: {favNumber}</h2>
-      <h2>My Age: {age}</h2>
+      <div className="box">I am talking without my microphone</div>
+      <div className="second">Hello</div>
     </>
   );
 }
