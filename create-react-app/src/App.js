@@ -10,7 +10,6 @@ function App() {
 
   age = 32;
 
-
   return (
     <>
       <h1>My Country Name: {myCountry}</h1>
@@ -20,14 +19,5 @@ function App() {
     </>
   );
 }
-
-  const result = printNumber(1, 2, "3");
-
-  console.log(typeof result);
-
-  console.log(result + 7);
-
-  return <>{result}</>;
-};
 
 export default App;
